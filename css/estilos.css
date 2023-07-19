@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin:0px; border:0px; padding:0px;}
+
+html { background-color: aliceblue}
+
+body {overflow-x: hidden;}
+
+h1 { style:"text-align:left"; color:inherit; font-style: oblique; font-size:60px; display: inline-block; letter-spacing: "2px"; }
+
+h1.cont { style:"text-align:center"; color:inherit; font-style: oblique;  display: inline-block; letter-spacing: "2px";font: small-caps 100%/200% serif; font-size:35px
+}
+
+h2 {text-align: center; font-size: 25px;background-color: #C9E4FC; width: 107%}
+
+red{color: blue}
+
+#contenedor {margin: auto; width:100%;}
+
+.logo {margin: 10px 0px; width: 5%;}
+
+.banner {width:100%; height:400px;}
+
+table{width: 106%}
+
+main {display:flex;border:2px; background-color:aliceblue}
+
+main p {text-align:center; font-weight: bold; font-size: 18px; border: 2px solid #DCEDFC; margin:2px; background-color: #DCEDFC;width: 106%}
+
+aside {width:15%; border-right:3px;background-color: #C9E4FC}
+
+aside a {margin:10px; display:block; font: small-caps 100%/200% serif; }
+
+aside.derecha{width:20%;background-color: #C9E4FC;}
+
+section {width:80%; display:flex; flex-direction: column;}
+
+section.pag {width:70%; display:flex; flex-direction: column;}
+
+section p{font-size: 30px}
+
+section figure {width: 30%; margin-top: 10px; margin-bottom: 10px; display: block}
+
+sectiong figure img {width: 80%; margin: 10px auto; display:block;}
+
+sectiong figure figcaption{margin:10px auto; text-align: center}
+
+article {margin:5px; border:2px; border-radius: 25px; background: url("../imagenes/fondoP.jpg") }
+
+article img {height: auto; width: auto; border-radius: 25px}
+
+.menor {width: 65%}
+
+article p {text-align: justify; }
+
+footer {background-color: gray; display:flex;}
+
+footer p {width:85%; margin:30px 20px; color:white;}
+
+footer div {margin:10px; display:flex;}
+
+footer div img {padding-right: 10px;}
+
+th {font: small-caps 100%/200% serif; font-size: 25px }
+
+th.conta {font: small-caps 100%/200% serif; font-size: 20px }
+
+table{
+	border-radius: 5px;
+	padding: 40px;
+	}
+
+table.contact{border-radius: 5px; border:2px #89CFF0 solid}
+
+input{width:100%; border-radius: 25px}
+
+input.contac{width:55%; border-radius: 25px; border:2px #89CFF0 solid}
+
+input.mnsj{height: 100px}
+
+.btn-group .button {
+  background-color:#89CFF0; 
+  border: 1px solid #89CFF0;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+  border-radius: 5px;
+}
+
+.btn-group .button:not(:last-child) {
+  border-bottom: none; 
+}
+
+.btn-group .button:hover {
+  background-color: #4C85E8;
+}
+
+
+
+.btn-group2 .button2 {
+   background-color:  #89CFF0; 
+  border: 1px solid #89CFF0;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+  width: 410px;
+  
+}
+
+.btn-group2 .button2:not(:last-child) {
+  border-right: none; 
+}
+
+.btn-group2 .button2:hover {
+  background-color: #4C85E8;
+}
